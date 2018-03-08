@@ -1,0 +1,57 @@
+$color_bg_page : rgb(40,40,40);
+$color_text : rgb(141,141,141);
+
+.container {
+  margin-right: auto;
+  margin-left: auto
+}
+a{
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  background-color: rgb(213,213,213);
+}
+*{
+  font-family: Arial;
+  //font-family: Tahoma,Verdana,Segoe,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.clearfix:before{
+  display: table;
+  content: " ";
+}
+.clearfix:after{
+  clear: both;
+}
+@mixin setFontSizeBold($size){
+  font-weight: 600;
+  font-size: $size#{px};
+}
+@mixin setSizeImage($width,$height){
+  width: $width#{px};
+  height: $height#{px};
+}
+@font-face {
+  font-family: "VNT USANormal";
+  src: url("../fonts/vni.addon.VUSAHB.TTF") format("truetype");
+}
+//@media (min-width: 768px) {
+//  .container {
+//    width: 750px
+//  }
+//}
+//
+//@media (min-width: 992px) {
+//  .container {
+//    width: 970px
+//  }
+//  .col-md-4{
+//    width: 33.33333333%
+//  }
+//}
+//
+.container {
+  width: 1200px
+}

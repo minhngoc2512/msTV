@@ -1,0 +1,41 @@
+.header{
+  background-color: $color_bg_page;
+  width: 100%;
+  height: 82px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  .logo{
+    margin-left: 5%;
+  }
+  .login-register{
+    margin-right: 5%;
+  }
+  .form-search{
+    width: 30%;
+    form{
+      width: 100%;
+      position: relative;
+      input{
+        width: 100%;
+        height: 28px;
+        border-radius: 12px;
+        background-color: $color_bg_page;
+        border: 1px solid rgb(70,70,70);
+      }
+      button{
+        position: absolute;
+        top: 5px;
+        right: 6px;
+        border: none;
+        background-color: $color_bg_page;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  }
+  .login-register{
+    font-size: 11px;
+    color: rgb(141,141,141);
+  }
+}
