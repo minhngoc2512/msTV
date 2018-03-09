@@ -1,0 +1,111 @@
+.main-slider{
+	position: relative;
+  .slider-item{
+    .img-slider{
+      width: 100%;
+     height: 370px;
+
+    }
+    .btn-slider-prev{
+			cursor: pointer;
+			z-index: 999;
+			position: absolute;
+			bottom: 123px;
+			left: 131px;
+			border: none;
+			outline: none;
+			background: transparent;
+    }
+    .btn-slider-next{
+			cursor: pointer;
+			border: none;
+			outline: none;
+			background: transparent;
+			z-index: 999;
+			position: absolute;
+			bottom: 123px;
+	    left: 439px;
+    }
+  }
+  .content-slider{
+  	position:absolute;
+		bottom: 36px;
+    left: 105px;
+  	.title-slider{
+	    display: inline-block;
+    padding: 25px 84px 10px 72px;
+    background-color: rgba(41, 41, 41, 0.8);
+  		a{
+				font-size: 40px;
+				color:rgb(184,184,184);
+			}
+		}
+		.menu-nav{
+			display: flex;
+			.page-active{
+				border-bottom: 5px solid rgb(40,40,40);
+			}
+			.menu-parent-nav,.menu-child-nav li{
+				padding: 25px 43px;
+				a{
+					font-size: 20px;
+					color: rgb(246,246,246);
+					img{
+						margin-left:9px;
+					}
+				}
+
+			}
+			.menu-parent-nav:nth-child(1){
+				background-color: rgb(255,89,93);
+				.menu-child-nav{
+					background-color: rgb(255,89,93);
+				}
+			}
+			.menu-parent-nav:nth-child(2){
+				background-color: rgb(249,107,101);
+				.menu-child-nav{
+					background-color: rgb(249,107,101);
+				}
+			}
+			.menu-parent-nav:nth-child(3){
+				background-color: rgb(254,195,119);
+				.menu-child-nav{
+					background-color: rgb(254,195,119);
+				}
+			}
+			.menu-parent-nav:nth-child(4){
+				background-color: rgb(187,184,134);
+			}
+			.menu-parent-nav:nth-child(5){
+				background-color: rgb(34,130,113);
+			}
+			.dropdown-menu{
+				position: relative;
+				.menu-child-nav{
+					background-color: rgb(34,130,113);
+					position:absolute;
+					z-index:1000;
+					list-style: none;
+					top:57px;
+					width: 100%;
+					left: 0;
+					display: none;
+					padding:0;
+					li{
+						a{
+							font-size: 20px;
+							color: rgb(246,246,246);
+						}
+					}
+		
+				}
+			}
+			.open{
+				.menu-child-nav{
+					display: block!important;
+				}
+			}
+		}
+  }
+}

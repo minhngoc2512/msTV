@@ -219,54 +219,72 @@
         }
       }
     }
-    .list-item-film-3{
-      .list-item-group{
+    .list-item-film-3, .list-item-film-3-2 {
+      .slick-dots {
+        transform: rotate(90deg);
+        width: 177px;
+        bottom: 122px;
+        right: -47px;
+        li {
+          button::before {
+            font-size: 0;
+            background: url("../images/icon/icon_page.png") no-repeat 4px 4px;
+
+          }
+        }
+        .slick-active {
+          button::before {
+            background: url("../images/icon/icon_page_active.png") no-repeat 4px 4px;
+          }
+        }
+      }
+      .list-item-group {
         display: flex;
         justify-content: flex-start;
-        .item-1{
-          width:477px;
-          margin-right:20px ;
-          .des-item{
+        .item-1 {
+          width: 477px;
+          margin-right: 20px;
+          .des-item {
             display: block;
             line-height: 0;
             position: relative;
-            .views-count{
+            .views-count {
               position: absolute;
-              top:4px;
+              top: 4px;
               right: 8px;
               display: flex;
               justify-content: flex-start;
               align-items: center;
-              img{
+              img {
                 margin-right: 5px;
               }
-              span{
+              span {
                 font-size: 11px;
                 color: white;
               }
             }
-            .detail-item{
+            .detail-item {
               position: absolute;
               left: 33px;
               bottom: 18px;
-                h3{
-                  color: white;
-                  margin: 0;
-                  font-size: 20px;
-                  font-family: Arial;
-                  line-height: 20px;
-                }
+              h3 {
+                color: white;
+                margin: 0;
+                font-size: 20px;
+                font-family: Arial;
+                line-height: 20px;
+              }
 
-              span{
+              span {
                 font-size: 11px;
                 font-family: "Myriad Pro";
                 color: white;
                 line-height: 20px;
               }
-              .rate-start{
+              .rate-start {
                 display: flex;
                 justify-content: flex-start;
-                i{
+                i {
                   margin-right: 6px;
                 }
               }
@@ -274,51 +292,51 @@
           }
 
         }
-        .item-4{
+        .item-4 {
           width: 460px;
 
-          .item-4-row{
+          .item-4-row {
             display: flex;
             justify-content: space-between;
 
-            .item{
+            .item {
               width: 220px;
-              a{
+              a {
                 display: block;
                 position: relative;
                 line-height: 0;
-                .description-item-4{
+                .description-item-4 {
                   position: absolute;
                   bottom: 0;
                   padding: 10px 10px 5px 10px;
                   width: calc(100% - 20px);
                   right: 0;
-                  background-color: rgba(0,0,0,0.4);
+                  background-color: rgba(0, 0, 0, 0.4);
                   display: flex;
                   justify-content: space-between;
-                  .description-item-4-1{
-                    h3{
+                  .description-item-4-1 {
+                    h3 {
                       font-size: 13px;
                       color: white;
                       margin: 0;
                       padding-top: 7px;
                       padding-bottom: 7px;
                     }
-                    p{
-                      color:white;
+                    p {
+                      color: white;
                       font-size: 11px;
                     }
                   }
-                  .description-item-4-2{
-                    margin-top:-5px;
-                    p{
+                  .description-item-4-2 {
+                    margin-top: -5px;
+                    p {
                       font-size: 10px;
                       color: white;
                     }
-                    .rate-start{
+                    .rate-start {
                       display: flex;
                       justify-content: flex-start;
-                      i{
+                      i {
                         margin-right: 6px;
                       }
                     }
@@ -328,8 +346,68 @@
               }
             }
           }
-          .item-4-row:first-child{
+          .item-4-row:first-child {
             margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  .category-other {
+    margin-top: 35px;
+    .title-category-home {
+      margin-bottom: 12px;
+      a {
+        color: rgb(99, 99, 99);
+        h2 {
+          margin: 0;
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+    }
+    .list-item-cate-other {
+      display: flex;
+      justify-content: space-between;
+      .item {
+        a {
+          display: block;
+          position: relative;
+          .count-views-cate-other {
+            position: absolute;
+            top: 3px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            span {
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 11px;
+              color: white;
+            }
+            img {
+              margin-right: 5px;
+              height: 17px;
+            }
+          }
+          .desciption-item {
+            position: absolute;
+            left: 13px;
+            bottom: 9px;
+            color: white;
+            h3 {
+              margin: 0;
+              line-height: 16px;
+              font-family: Arial;
+              font-size: 17px;
+            }
+            span {
+              font-size: 11px;
+            }
+            .rate-start {
+              margin-top: 1px;
+
+            }
+
           }
         }
       }

@@ -1,5 +1,9 @@
 $color_bg_page : rgb(40,40,40);
 $color_text : rgb(141,141,141);
+@font-face {
+  font-family: "VNT USANormal";
+  src: url("../fonts/VUSAHB.TTF") format("truetype");
+}
 
 .container {
   margin-right: auto;
@@ -13,7 +17,7 @@ body{
   background-color: rgb(213,213,213);
 }
 *{
-  font-family: Arial;
+  font-family: "Arial";
   //font-family: Tahoma,Verdana,Segoe,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -33,10 +37,7 @@ body{
   width: $width#{px};
   height: $height#{px};
 }
-@font-face {
-  font-family: "VNT USANormal";
-  src: url("../fonts/vni.addon.VUSAHB.TTF") format("truetype");
-}
+
 //@media (min-width: 768px) {
 //  .container {
 //    width: 750px
