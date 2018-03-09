@@ -1,8 +1,12 @@
 $color_bg_page : rgb(40,40,40);
 $color_text : rgb(141,141,141);
+// @font-face {
+//   font-family: "VNT USANormal";
+//   src: url("../fonts/VNT-USANormal.ttf") format("truetype");
+// }
 @font-face {
   font-family: "VNT USANormal";
-  src: url("../fonts/VUSAHB.TTF") format("truetype");
+  src:  url("../fonts/VNT-USANormal.ttf");
 }
 
 .container {

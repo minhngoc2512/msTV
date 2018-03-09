@@ -121,6 +121,25 @@
             a {
               line-height: 0;
               display: block;
+              position:relative;
+              .number-top{
+                position: absolute;
+                top:0;
+                left:0;
+                .number-1{
+                  position: relative;
+                  label{
+                    position: absolute;
+                    top: 22px;
+                    /* left: 2px; */
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: white;
+                    width: 100%;
+                    text-align: center;
+                  }
+                }
+              }
               img {
                 width: 100%;
               }

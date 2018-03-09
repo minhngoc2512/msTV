@@ -29,7 +29,7 @@
             <a>
                 Đăng nhập
             </a> /
-            <a>
+            <a onclick="changeSlide()">
                 Đăng kí
             </a>
 
@@ -44,33 +44,55 @@
         </div>
         <div class="content-slider">
             <div class="title-slider">
+                <img onclick="prevSlider()" class="btn-slider-prev" src="public\images\icon\icon_prev_slider.png">
                 <a id="link-img-slider" href="#">
                     JAME&TOME
                 </a>
+                <img onclick="nextSlider()" class="btn-slider-next" src="public\images\icon\icon_next_slider.png">
             </div>
             <div class="menu-nav">
                 <div class="menu-parent-nav page-active">
                     <a href="#">Trang chủ</a>
-                    
+
                 </div>
                 <div class="menu-parent-nav dropdown-menu">
-                    <a href="#">Truyền hình<img src="public\images\icon\icon_dropdow_menu.png"/></a>
+                    <a href="#">Truyền hình
+                        <img src="public\images\icon\icon_dropdow_menu.png" />
+                    </a>
                     <ul class="menu-child-nav">
-                        <li class="menu-item-nav"><a href="#">VTV 1</a></li>
-                        <li class="menu-item-nav"><a href="#">VTV 1</a></li>
-                        <li class="menu-item-nav"><a href="#">VTV 1</a></li>
-                        <li class="menu-item-nav"><a href="#">VTV 1</a></li>
-                       
+                        <li class="menu-item-nav">
+                            <a href="#">VTV 1</a>
+                        </li>
+                        <li class="menu-item-nav">
+                            <a href="#">VTV 1</a>
+                        </li>
+                        <li class="menu-item-nav">
+                            <a href="#">VTV 1</a>
+                        </li>
+                        <li class="menu-item-nav">
+                            <a href="#">VTV 1</a>
+                        </li>
+
                     </ul>
                 </div>
                 <div class="menu-parent-nav dropdown-menu">
-                    <a href="#">Phim ảnh <img src="public\images\icon\icon_dropdow_menu.png"/></a>
+                    <a href="#">Phim ảnh
+                        <img src="public\images\icon\icon_dropdow_menu.png" />
+                    </a>
                     <ul class="menu-child-nav">
-                            <li class="menu-item-nav"><a href="#">VTV 1</a></li>
-                            <li class="menu-item-nav"><a href="#">VTV 1</a></li>
-                            <li class="menu-item-nav"><a href="#">VTV 1</a></li>
-                            <li class="menu-item-nav"><a href="#">VTV 1</a></li>
-                        </ul>
+                        <li class="menu-item-nav">
+                            <a href="#">VTV 1</a>
+                        </li>
+                        <li class="menu-item-nav">
+                            <a href="#">VTV 1</a>
+                        </li>
+                        <li class="menu-item-nav">
+                            <a href="#">VTV 1</a>
+                        </li>
+                        <li class="menu-item-nav">
+                            <a href="#">VTV 1</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="menu-parent-nav">
                     <a href="#">Khác...</a>
@@ -196,6 +218,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                <div class="number-top">
+                                    <div class="number-1">
+                                        <img src="public/images/icon/stt.png" />
+                                        <label>1</label>
+                                    </div>
+                                </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -223,6 +251,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>2</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_2.jpg" />
                             </a>
                         </div>
@@ -250,6 +284,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>3</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -277,6 +317,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>4</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -304,6 +350,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>5</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -334,6 +386,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>6</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -361,6 +419,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>7</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_2.jpg" />
                             </a>
                         </div>
@@ -388,6 +452,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>8</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -415,6 +485,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>9</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -442,6 +518,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>10</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -472,6 +554,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>11</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -499,6 +587,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>12</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_2.jpg" />
                             </a>
                         </div>
@@ -526,6 +620,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>13</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -553,6 +653,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>14</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -580,6 +686,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>15</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -610,6 +722,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>16</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -637,6 +755,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>17</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_2.jpg" />
                             </a>
                         </div>
@@ -664,6 +788,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>18</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -691,6 +821,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>19</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -718,6 +854,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>20</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -757,6 +899,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>1</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -784,6 +932,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>2</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_2.jpg" />
                             </a>
                         </div>
@@ -811,6 +965,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>3</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -838,6 +998,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>4</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -865,6 +1031,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>5</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -895,6 +1067,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>6</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -922,6 +1100,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>7</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_2.jpg" />
                             </a>
                         </div>
@@ -949,6 +1133,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>8</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -976,6 +1166,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>9</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -1003,6 +1199,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>10</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -1033,6 +1235,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>11</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -1060,6 +1268,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>12</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_2.jpg" />
                             </a>
                         </div>
@@ -1087,6 +1301,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>13</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -1114,6 +1334,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>14</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -1141,6 +1367,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>15</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -1171,6 +1403,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>16</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
@@ -1198,6 +1436,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>17</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_2.jpg" />
                             </a>
                         </div>
@@ -1225,6 +1469,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>18</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -1252,6 +1502,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>19</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_3.jpg" />
                             </a>
                         </div>
@@ -1279,6 +1535,12 @@
                     <div class="item">
                         <div class="thumbnail-item">
                             <a href="#">
+                                    <div class="number-top">
+                                            <div class="number-1">
+                                                <img src="public/images/icon/stt.png" />
+                                                <label>20</label>
+                                            </div>
+                                        </div>
                                 <img src="public/images/hot_week_1.jpg" />
                             </a>
                         </div>
