@@ -1,6 +1,3 @@
-@font-face {
-  font-family: "VNT USANormal";
-  src: url("../fonts/VNT-USANormal.ttf"); }
 .container {
   margin-right: auto;
   margin-left: auto; }
@@ -13,7 +10,7 @@ body {
   background-color: #d5d5d5; }
 
 * {
-  font-family: "Arial";
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 

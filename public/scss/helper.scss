@@ -4,10 +4,13 @@ $color_text : rgb(141,141,141);
 //   font-family: "VNT USANormal";
 //   src: url("../fonts/VNT-USANormal.ttf") format("truetype");
 // }
-@font-face {
-  font-family: "VNT USANormal";
-  src:  url("../fonts/VNT-USANormal.ttf");
-}
+// @font-face {
+//   font-family: "VNT USANormal";
+//   src:  url("../fonts/VNT-USANormal.ttf");
+//   font-family: 'VNI-US';
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 .container {
   margin-right: auto;
@@ -21,7 +24,7 @@ body{
   background-color: rgb(213,213,213);
 }
 *{
-  font-family: "Arial";
+  font-family: 'Roboto', sans-serif;
   //font-family: Tahoma,Verdana,Segoe,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

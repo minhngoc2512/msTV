@@ -3,6 +3,14 @@ $(".list-item").slick({
   arrows: false,
   autoplay: true
 });
+// $('.list-item').slick({
+//   slidesToShow: 3,
+//   slidesToScroll: 1,
+//   dots: true,
+//   centerMode: true,
+//   focusOnSelect: true
+// });
+
 $(".list-item-film-3").slick({
   dots: true,
   arrows: false,
