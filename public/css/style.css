@@ -45,7 +45,8 @@ body {
         height: 28px;
         border-radius: 12px;
         background-color: #282828;
-        border: 1px solid #464646; }
+        border: 1px solid #464646;
+        box-shadow: 2px 1px 1px 1px #0a0a0a; }
       .header .form-search form button {
         position: absolute;
         top: 5px;
@@ -90,6 +91,7 @@ body {
       .main-slider .content-slider .menu-nav .menu-parent-nav, .main-slider .content-slider .menu-nav .menu-child-nav li {
         padding: 22px 43px; }
         .main-slider .content-slider .menu-nav .menu-parent-nav a, .main-slider .content-slider .menu-nav .menu-child-nav li a {
+          text-shadow: 1px 1px 3px #151111;
           font-size: 20px;
           color: #f6f6f6; }
           .main-slider .content-slider .menu-nav .menu-parent-nav a img, .main-slider .content-slider .menu-nav .menu-child-nav li a img {
@@ -212,22 +214,23 @@ body {
           margin: 0;
           font-size: 20px;
           font-weight: 500; }
-    .main-content .hot-week .list-item .list-item-group, .main-content .film-free .list-item .list-item-group {
+    .main-content .hot-week .list-item .list-item-group, .main-content .hot-week .list-item .list-item-group-1, .main-content .hot-week .list-item .list-item-group-2, .main-content .film-free .list-item .list-item-group, .main-content .film-free .list-item .list-item-group-1, .main-content .film-free .list-item .list-item-group-2 {
       display: flex;
       justify-content: space-between; }
-      .main-content .hot-week .list-item .list-item-group .item, .main-content .film-free .list-item .list-item-group .item {
-        width: 188px; }
-        .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a {
+      .main-content .hot-week .list-item .list-item-group .item, .main-content .hot-week .list-item .list-item-group-1 .item, .main-content .hot-week .list-item .list-item-group-2 .item, .main-content .film-free .list-item .list-item-group .item, .main-content .film-free .list-item .list-item-group-1 .item, .main-content .film-free .list-item .list-item-group-2 .item {
+        width: 188px;
+        margin-right: 20px; }
+        .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a, .main-content .hot-week .list-item .list-item-group-1 .item .thumbnail-item a, .main-content .hot-week .list-item .list-item-group-2 .item .thumbnail-item a, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a, .main-content .film-free .list-item .list-item-group-1 .item .thumbnail-item a, .main-content .film-free .list-item .list-item-group-2 .item .thumbnail-item a {
           line-height: 0;
           display: block;
           position: relative; }
-          .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a .number-top, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a .number-top {
+          .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a .number-top, .main-content .hot-week .list-item .list-item-group-1 .item .thumbnail-item a .number-top, .main-content .hot-week .list-item .list-item-group-2 .item .thumbnail-item a .number-top, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a .number-top, .main-content .film-free .list-item .list-item-group-1 .item .thumbnail-item a .number-top, .main-content .film-free .list-item .list-item-group-2 .item .thumbnail-item a .number-top {
             position: absolute;
             top: 0;
             left: 0; }
-            .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a .number-top .number-1, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a .number-top .number-1 {
+            .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a .number-top .number-1, .main-content .hot-week .list-item .list-item-group-1 .item .thumbnail-item a .number-top .number-1, .main-content .hot-week .list-item .list-item-group-2 .item .thumbnail-item a .number-top .number-1, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a .number-top .number-1, .main-content .film-free .list-item .list-item-group-1 .item .thumbnail-item a .number-top .number-1, .main-content .film-free .list-item .list-item-group-2 .item .thumbnail-item a .number-top .number-1 {
               position: relative; }
-              .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a .number-top .number-1 label, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a .number-top .number-1 label {
+              .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a .number-top .number-1 label, .main-content .hot-week .list-item .list-item-group-1 .item .thumbnail-item a .number-top .number-1 label, .main-content .hot-week .list-item .list-item-group-2 .item .thumbnail-item a .number-top .number-1 label, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a .number-top .number-1 label, .main-content .film-free .list-item .list-item-group-1 .item .thumbnail-item a .number-top .number-1 label, .main-content .film-free .list-item .list-item-group-2 .item .thumbnail-item a .number-top .number-1 label {
                 position: absolute;
                 top: 22px;
                 /* left: 2px; */
@@ -236,42 +239,42 @@ body {
                 color: white;
                 width: 100%;
                 text-align: center; }
-          .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a img, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a img {
+          .main-content .hot-week .list-item .list-item-group .item .thumbnail-item a img, .main-content .hot-week .list-item .list-item-group-1 .item .thumbnail-item a img, .main-content .hot-week .list-item .list-item-group-2 .item .thumbnail-item a img, .main-content .film-free .list-item .list-item-group .item .thumbnail-item a img, .main-content .film-free .list-item .list-item-group-1 .item .thumbnail-item a img, .main-content .film-free .list-item .list-item-group-2 .item .thumbnail-item a img {
             width: 100%; }
-        .main-content .hot-week .list-item .list-item-group .item .detail-item, .main-content .film-free .list-item .list-item-group .item .detail-item {
+        .main-content .hot-week .list-item .list-item-group .item .detail-item, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item, .main-content .film-free .list-item .list-item-group .item .detail-item, .main-content .film-free .list-item .list-item-group-1 .item .detail-item, .main-content .film-free .list-item .list-item-group-2 .item .detail-item {
           padding: 12px;
           background-color: white; }
-          .main-content .hot-week .list-item .list-item-group .item .detail-item .title-item a h3, .main-content .film-free .list-item .list-item-group .item .detail-item .title-item a h3 {
+          .main-content .hot-week .list-item .list-item-group .item .detail-item .title-item a h3, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .title-item a h3, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .title-item a h3, .main-content .film-free .list-item .list-item-group .item .detail-item .title-item a h3, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .title-item a h3, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .title-item a h3 {
             font-size: 15px;
             margin: 0;
             color: #333333; }
-          .main-content .hot-week .list-item .list-item-group .item .detail-item .views-count, .main-content .film-free .list-item .list-item-group .item .detail-item .views-count {
+          .main-content .hot-week .list-item .list-item-group .item .detail-item .views-count, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .views-count, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .views-count, .main-content .film-free .list-item .list-item-group .item .detail-item .views-count, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .views-count, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .views-count {
             margin-top: 8px;
             margin-bottom: 8px;
             display: flex;
             justify-content: flex-start;
             align-items: center; }
-            .main-content .hot-week .list-item .list-item-group .item .detail-item .views-count .icon-item, .main-content .film-free .list-item .list-item-group .item .detail-item .views-count .icon-item {
+            .main-content .hot-week .list-item .list-item-group .item .detail-item .views-count .icon-item, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .views-count .icon-item, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .views-count .icon-item, .main-content .film-free .list-item .list-item-group .item .detail-item .views-count .icon-item, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .views-count .icon-item, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .views-count .icon-item {
               width: 18px;
               margin-right: 7px; }
-              .main-content .hot-week .list-item .list-item-group .item .detail-item .views-count .icon-item img, .main-content .film-free .list-item .list-item-group .item .detail-item .views-count .icon-item img {
+              .main-content .hot-week .list-item .list-item-group .item .detail-item .views-count .icon-item img, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .views-count .icon-item img, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .views-count .icon-item img, .main-content .film-free .list-item .list-item-group .item .detail-item .views-count .icon-item img, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .views-count .icon-item img, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .views-count .icon-item img {
                 display: block;
                 margin-right: auto;
                 margin-left: auto; }
-            .main-content .hot-week .list-item .list-item-group .item .detail-item .views-count span, .main-content .film-free .list-item .list-item-group .item .detail-item .views-count span {
+            .main-content .hot-week .list-item .list-item-group .item .detail-item .views-count span, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .views-count span, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .views-count span, .main-content .film-free .list-item .list-item-group .item .detail-item .views-count span, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .views-count span, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .views-count span {
               font-size: 11px; }
-          .main-content .hot-week .list-item .list-item-group .item .detail-item .comment-count, .main-content .film-free .list-item .list-item-group .item .detail-item .comment-count {
+          .main-content .hot-week .list-item .list-item-group .item .detail-item .comment-count, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .comment-count, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .comment-count, .main-content .film-free .list-item .list-item-group .item .detail-item .comment-count, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .comment-count, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .comment-count {
             display: flex;
             justify-content: flex-start;
             align-items: center; }
-            .main-content .hot-week .list-item .list-item-group .item .detail-item .comment-count .icon-item, .main-content .film-free .list-item .list-item-group .item .detail-item .comment-count .icon-item {
+            .main-content .hot-week .list-item .list-item-group .item .detail-item .comment-count .icon-item, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .comment-count .icon-item, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .comment-count .icon-item, .main-content .film-free .list-item .list-item-group .item .detail-item .comment-count .icon-item, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .comment-count .icon-item, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .comment-count .icon-item {
               width: 18px;
               margin-right: 7px; }
-              .main-content .hot-week .list-item .list-item-group .item .detail-item .comment-count .icon-item img, .main-content .film-free .list-item .list-item-group .item .detail-item .comment-count .icon-item img {
+              .main-content .hot-week .list-item .list-item-group .item .detail-item .comment-count .icon-item img, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .comment-count .icon-item img, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .comment-count .icon-item img, .main-content .film-free .list-item .list-item-group .item .detail-item .comment-count .icon-item img, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .comment-count .icon-item img, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .comment-count .icon-item img {
                 display: block;
                 margin-right: auto;
                 margin-left: auto; }
-            .main-content .hot-week .list-item .list-item-group .item .detail-item .comment-count span, .main-content .film-free .list-item .list-item-group .item .detail-item .comment-count span {
+            .main-content .hot-week .list-item .list-item-group .item .detail-item .comment-count span, .main-content .hot-week .list-item .list-item-group-1 .item .detail-item .comment-count span, .main-content .hot-week .list-item .list-item-group-2 .item .detail-item .comment-count span, .main-content .film-free .list-item .list-item-group .item .detail-item .comment-count span, .main-content .film-free .list-item .list-item-group-1 .item .detail-item .comment-count span, .main-content .film-free .list-item .list-item-group-2 .item .detail-item .comment-count span {
               font-size: 11px; }
     .main-content .hot-week .slick-dots, .main-content .film-free .slick-dots {
       top: -34px;
@@ -285,6 +288,7 @@ body {
       list-style: none;
       text-align: center; }
       .main-content .hot-week .slick-dots li button::before, .main-content .film-free .slick-dots li button::before {
+        opacity: 1;
         font-size: 0;
         background: url("../images/icon/icon_page.png") no-repeat 4px 4px; }
       .main-content .hot-week .slick-dots .slick-active button::before, .main-content .film-free .slick-dots .slick-active button::before {
@@ -299,16 +303,6 @@ body {
           margin: 0;
           font-size: 20px;
           font-weight: 500; }
-    .main-content .category-film-3 .list-item-film-3 .slick-dots, .main-content .category-film-3 .list-item-film-3-2 .slick-dots {
-      transform: rotate(90deg);
-      width: 177px;
-      bottom: 122px;
-      right: -47px; }
-      .main-content .category-film-3 .list-item-film-3 .slick-dots li button::before, .main-content .category-film-3 .list-item-film-3-2 .slick-dots li button::before {
-        font-size: 0;
-        background: url("../images/icon/icon_page.png") no-repeat 4px 4px; }
-      .main-content .category-film-3 .list-item-film-3 .slick-dots .slick-active button::before, .main-content .category-film-3 .list-item-film-3-2 .slick-dots .slick-active button::before {
-        background: url("../images/icon/icon_page_active.png") no-repeat 4px 4px; }
     .main-content .category-film-3 .list-item-film-3 .list-item-group, .main-content .category-film-3 .list-item-film-3-2 .list-item-group {
       display: flex;
       justify-content: flex-start; }
@@ -351,18 +345,18 @@ body {
               justify-content: flex-start; }
               .main-content .category-film-3 .list-item-film-3 .list-item-group .item-1 .des-item .detail-item .rate-start i, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-1 .des-item .detail-item .rate-start i {
                 margin-right: 6px; }
-      .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 {
+      .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 {
         width: 460px; }
-        .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row {
+        .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row {
           display: flex;
           justify-content: space-between; }
-          .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item {
+          .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item {
             width: 220px; }
-            .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item a, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item a {
+            .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item a, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item a, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a {
               display: block;
               position: relative;
               line-height: 0; }
-              .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item a .description-item-4, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item a .description-item-4 {
+              .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 {
                 position: absolute;
                 bottom: 0;
                 padding: 10px 10px 5px 10px;
@@ -371,27 +365,39 @@ body {
                 background-color: rgba(0, 0, 0, 0.4);
                 display: flex;
                 justify-content: space-between; }
-                .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-1 h3, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-1 h3 {
+                .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-1 h3, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-1 h3, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-1 h3, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-1 h3 {
                   font-size: 13px;
                   color: white;
                   margin: 0;
                   padding-top: 7px;
                   padding-bottom: 7px; }
-                .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-1 p, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-1 p {
+                .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-1 p, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-1 p, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-1 p, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-1 p {
                   color: white;
                   font-size: 11px; }
-                .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-2, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-2 {
+                .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 {
                   margin-top: -5px; }
-                  .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-2 p, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-2 p {
+                  .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 p, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 p, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 p, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 p {
                     font-size: 10px;
                     color: white; }
-                  .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start {
+                  .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start {
                     display: flex;
                     justify-content: flex-start; }
-                    .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start i, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start i {
+                    .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start i, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start i, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start i, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row .item a .description-item-4 .description-item-4-2 .rate-start i {
                       margin-right: 6px; }
-        .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-4-row:first-child, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-4-row:first-child {
+        .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .item-group-4 .item-4-row:first-child, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .item-group-4 .item-4-row:first-child, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .item-group-4 .item-4-row:first-child, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .item-group-4 .item-4-row:first-child {
           margin-bottom: 20px; }
+        .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .slick-dots, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .slick-dots, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .slick-dots, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .slick-dots {
+          transform: rotate(90deg);
+          width: 177px;
+          bottom: 122px;
+          right: -126px; }
+          .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .slick-dots li button::before, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .slick-dots li button::before, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .slick-dots li button::before, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .slick-dots li button::before {
+            opacity: 1;
+            font-size: 0;
+            background: url("../images/icon/icon_page.png") no-repeat 4px 4px; }
+          .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4 .slick-dots .slick-active button::before, .main-content .category-film-3 .list-item-film-3 .list-item-group .item-4-2 .slick-dots .slick-active button::before, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4 .slick-dots .slick-active button::before, .main-content .category-film-3 .list-item-film-3-2 .list-item-group .item-4-2 .slick-dots .slick-active button::before {
+            opacity: 1;
+            background: url("../images/icon/icon_page_active.png") no-repeat 4px 4px; }
   .main-content .category-other {
     margin-top: 35px; }
     .main-content .category-other .title-category-home {

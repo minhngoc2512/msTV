@@ -112,11 +112,12 @@
       }
     }
     .list-item {
-      .list-item-group {
+      .list-item-group,.list-item-group-1,.list-item-group-2 {
         display: flex;
         justify-content: space-between;
         .item {
           width: 188px;
+          margin-right:20px;
           .thumbnail-item {
             a {
               line-height: 0;
@@ -212,6 +213,7 @@
       text-align: center;
       li {
         button::before {
+          opacity: 1;
           font-size: 0;
           background: url("../images/icon/icon_page.png") no-repeat 4px 4px;
 
@@ -239,24 +241,24 @@
       }
     }
     .list-item-film-3, .list-item-film-3-2 {
-      .slick-dots {
-        transform: rotate(90deg);
-        width: 177px;
-        bottom: 122px;
-        right: -47px;
-        li {
-          button::before {
-            font-size: 0;
-            background: url("../images/icon/icon_page.png") no-repeat 4px 4px;
+      // .slick-dots {
+      //   transform: rotate(90deg);
+      //   width: 177px;
+      //   bottom: 122px;
+      //   right: -47px;
+      //   li {
+      //     button::before {
+      //       font-size: 0;
+      //       background: url("../images/icon/icon_page.png") no-repeat 4px 4px;
 
-          }
-        }
-        .slick-active {
-          button::before {
-            background: url("../images/icon/icon_page_active.png") no-repeat 4px 4px;
-          }
-        }
-      }
+      //     }
+      //   }
+      //   .slick-active {
+      //     button::before {
+      //       background: url("../images/icon/icon_page_active.png") no-repeat 4px 4px;
+      //     }
+      //   }
+      // }
       .list-item-group {
         display: flex;
         justify-content: flex-start;
@@ -311,8 +313,9 @@
           }
 
         }
-        .item-4 {
+        .item-4,.item-4-2 {
           width: 460px;
+          .item-group-4{
 
           .item-4-row {
             display: flex;
@@ -365,9 +368,31 @@
               }
             }
           }
+        
           .item-4-row:first-child {
             margin-bottom: 20px;
           }
+        }
+        .slick-dots {
+          transform: rotate(90deg);
+          width: 177px;
+          bottom: 122px;
+          right: -126px;
+          li {
+            button::before {
+              opacity: 1;
+              font-size: 0;
+              background: url("../images/icon/icon_page.png") no-repeat 4px 4px;
+  
+            }
+          }
+          .slick-active {
+            button::before {
+              opacity: 1;
+              background: url("../images/icon/icon_page_active.png") no-repeat 4px 4px;
+            }
+          }
+        }
         }
       }
     }
