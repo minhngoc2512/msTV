@@ -6,7 +6,7 @@ $(".list-item").slick({
 // $('.list-item').slick({
 //   slidesToShow: 3,
 //   slidesToScroll: 1,
-//   dots: true,
+//   dots: true,  
 //   centerMode: true,
 //   focusOnSelect: true
 // });
