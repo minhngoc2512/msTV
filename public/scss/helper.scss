@@ -1,9 +1,13 @@
 $color_bg_page : rgb(40,40,40);
 $color_text : rgb(141,141,141);
-// @font-face {
-//   font-family: "VNT USANormal";
-//   src: url("../fonts/VNT-USANormal.ttf") format("truetype");
-// }
+@font-face {
+  font-family: "Helvetical Neue Light";
+  src: url("../fonts/helveticaneuelight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetical Neue Medium";
+  src: url("../fonts/helveticaneuemedium.ttf") format("truetype");
+}
 // @font-face {
 //   font-family: "VNT USANormal";
 //   src:  url("../fonts/VNT-USANormal.ttf");

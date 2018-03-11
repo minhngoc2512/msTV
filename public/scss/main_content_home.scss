@@ -11,10 +11,12 @@
 
       h2 {
         margin: 0 0 14px 0;
+        text-shadow: 1px 1px 1px white;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 300;
+
         a {
-          color: $color_text;
+          color: rgb(99,99,99);
         }
       }
       .day-1 {
@@ -22,6 +24,8 @@
         justify-content: flex-start;
 
         .day {
+          width: 56px;
+          height: 70px;
           padding: 28px 28px 14px 28px;
           background-color: $color_bg_page;
           text-align: center;
@@ -45,9 +49,10 @@
       h2 {
         margin: 0 0 14px 0;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 300;
+        text-shadow: 1px 1px 1px white;
         a {
-          color: $color_text;
+          color: rgb(99,99,99);
         }
       }
       .item-service {
@@ -57,25 +62,24 @@
         .item {
           position: relative;
           background-color: $color_bg_page;
-          padding: 10px;
-          width: 166px;
+          padding: 8px;
+          width: 168px;
+          height: 96px;
           .img_item {
             position: absolute;
-            top: 10px;
-            right: 10px;
+            top: 15px;
+            right: 15px;
           }
           .logo {
-            margin-bottom: 13px;
+            // margin-bottom: 13px;
           }
           span {
-            font-size: 57px;
-            line-height: 57px;
-            color: rgb(56, 56, 56);
-            margin-top: 13px;
-            margin-bottom: 10px;
+            font-size: 52px;
+            line-height: 52px;
+            color: #383838;
           }
           .type-connect {
-            margin-top: 10px;
+            
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -104,10 +108,11 @@
       margin-bottom: 12px;
       a {
         color: rgb(99, 99, 99);
+        text-shadow: 1px 1px 1px white;
         h2 {
           margin: 0;
           font-size: 20px;
-          font-weight: 500;
+          font-weight: 300;
         }
       }
     }
@@ -155,6 +160,7 @@
                 h3 {
                   font-size: 15px;
                   margin: 0;
+                 font-weight: 400;
                   color: rgb(51, 51, 51);
                 }
               }
@@ -177,6 +183,7 @@
               }
               span {
                 font-size: 11px;
+                font-weight: 300;
               }
             }
             .comment-count {
@@ -194,6 +201,7 @@
               }
               span {
                 font-size: 11px;
+                font-weight: 300;
               }
             }
           }
@@ -233,10 +241,11 @@
       margin-bottom: 12px;
       a {
         color: rgb(99, 99, 99);
+        text-shadow: 1px 1px 1px white;
         h2 {
           margin: 0;
           font-size: 20px;
-          font-weight: 500;
+          font-weight: 300;
         }
       }
     }
@@ -294,6 +303,7 @@
                 font-size: 20px;
                 font-family: Arial;
                 line-height: 20px;
+                text-shadow: 1px 1px 1px white;
               }
 
               span {
@@ -403,10 +413,11 @@
       margin-bottom: 12px;
       a {
         color: rgb(99, 99, 99);
+        text-shadow: 1px 1px 1px white;
         h2 {
           margin: 0;
           font-size: 20px;
-          font-weight: 500;
+          font-weight: 300;
         }
       }
     }

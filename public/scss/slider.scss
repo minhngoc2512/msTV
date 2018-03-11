@@ -10,11 +10,11 @@
   }
   .content-slider{
   	position:absolute;
-		bottom: 36px;
-    left: 105px;
+	bottom: 17px;
+    left: 104px;
   	.title-slider{
 	    display: inline-block;
-			padding: 25px 30px 10px 30px;
+	    padding: 19px 13px 19px 13px;
 		background-color: rgba(41, 41, 41, 0.8);
 		.btn-slider-prev{
 			cursor: pointer;
@@ -27,6 +27,7 @@
 			margin-left: 10px;
     }
   		a{
+			  font-family: "Helvetical Neue Light";
 				font-size: 40px;
 				color:rgb(184,184,184);
 			}
@@ -37,7 +38,12 @@
 				border-bottom: 5px solid rgb(40,40,40);
 			}
 			.menu-parent-nav,.menu-child-nav li{
-				padding: 22px 43px;
+				text-align: center;
+				height: 68px;
+				width: 173px;
+				display: flex;
+				align-items:center;
+				justify-content:center;
 				a{
 					text-shadow: 1px 1px 3px #151111;
 					font-size: 20px;
@@ -55,9 +61,9 @@
 				}
 			}
 			.menu-parent-nav:nth-child(2){
-				background-color: rgb(249,107,101);
+				background-color: rgb(249,147,101);
 				.menu-child-nav{
-					background-color: rgb(249,107,101);
+					background-color: rgb(249,147,101);
 				}
 			}
 			.menu-parent-nav:nth-child(3){
@@ -79,7 +85,7 @@
 					position:absolute;
 					z-index:1000;
 					list-style: none;
-					top:54px;
+					top:50px;
 					width: 100%;
 					left: 0;
 					display: none;
