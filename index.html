@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/slick.css">
     <link rel="stylesheet" href="public/css/slick-theme.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=vietnamese" rel="stylesheet">
-    <!--<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=vietnamese" rel="stylesheet">
+ 
 </head>
 
 <body>
     <header class="header">
+        <div class="content-header">
         <div class="logo">
             <a href="#">
                 <img src="public/images/logo.png" />
@@ -30,20 +31,23 @@
             <a>
                 Đăng nhập
             </a> /
-            <a onclick="changeSlide()">
+            <a onclick="">
                 Đăng kí
             </a>
 
         </div>
+    </div>
 
     </header>
     <div class="main-slider">
         <div id="slider-h" class="slider-item">
             <img alt="Jame & Bond Marria" class="img-slider" src="public/images/bg_slider.jpg" />
-            <img alt="Tom & Jerry 2" class="img-slider" src="public/images/bg_slider.jpg" />
+            <img alt="Tom & Cat 2" class="img-slider" src="public/images/bg_slider.jpg" />
             <img alt="Jack & Zero" class="img-slider" src="public/images/bg_slider.jpg" />
         </div>
+        
         <div class="content-slider">
+                <div class="menu-slider">
             <div class="title-slider">
                 <img onclick="prevSlider()" class="btn-slider-prev" src="public\images\icon\icon_prev_slider.png">
                 <a id="link-img-slider" href="#">
@@ -52,8 +56,9 @@
                 <img onclick="nextSlider()" class="btn-slider-next" src="public\images\icon\icon_next_slider.png">
             </div>
             <div class="menu-nav">
-                <div class="menu-parent-nav page-active">
+                <div class="menu-parent-nav">
                     <a href="#">Trang chủ</a>
+                    <div class="page-active"></div>
 
                 </div>
                 <div class="menu-parent-nav dropdown-menu" data-id="1">
@@ -105,7 +110,7 @@
             </div>
 
         </div>
-
+    </div>
     </div>
     <div class="main-content">
         <div class="content-1">
@@ -1889,7 +1894,7 @@
     </footer>
     <script type="text/javascript" src="public/js/jquery.min.js"></script>
     <script type="text/javascript" src="public/js/slick.min.js"></script>
-    <script src="public/js/custom.js"></script>
+    <script type="text/javascript" src="public/js/custom.js"></script>
 </body>
 
 </html>

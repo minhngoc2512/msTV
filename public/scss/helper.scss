@@ -8,13 +8,14 @@ $color_text : rgb(141,141,141);
   font-family: "Helvetical Neue Medium";
   src: url("../fonts/helveticaneuemedium.ttf") format("truetype");
 }
-// @font-face {
-//   font-family: "VNT USANormal";
-//   src:  url("../fonts/VNT-USANormal.ttf");
-//   font-family: 'VNI-US';
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "VNT USANormal";
+  src:  url("../fonts/VNT-USANormal.ttf");
+}
+@font-face {
+  font-family: "UTM Avo";
+  src:  url("../fonts/UTM Avo.ttf");
+}
 
 .container {
   margin-right: auto;
